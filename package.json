@@ -1,0 +1,28 @@
+{
+  "name": "ivs-backend",
+  "version": "1.0.0",
+  "description": "IVS backend",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhyzerSaleem"
+  },
+  "license": "ISC",
+  "author": "Khizar",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "zod": "^3.24.2"
+  }
+}
